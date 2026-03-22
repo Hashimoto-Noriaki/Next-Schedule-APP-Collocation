@@ -14,6 +14,17 @@ export default function Home(){
           </nav>
         </div>
       </header>
+      <main className={styles.main}>
+        <div className={styles.mainContent}>
+          <h1 className={`logo ${styles.mainTitle}`}>スケジュール管理APP</h1>
+          <p className={styles.mainDescription}>お互いのスケジュールを管理するアプリです</p>
+          <div className={styles.mainButtonWrapper}>
+            <button>
+              ログイン
+            </button>
+          </div>
+        </div>
+      </main>
     </div>
   )
 }

@@ -3,7 +3,7 @@
 }
 
 .header{
-    backgrounde-color:#ffffff;
+    background-color:#ffffff;
     position:fixed;
     top:0;
     right:0;
@@ -26,4 +26,31 @@
     gap:20px;
     list-style:none;
     color:#3f6212;
+}
+
+.main {
+    padding-top:50px;
+    background:linear-gradient(to right, #ecfccb, #d9f99d);
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.mainContent {
+    text-align:center;
+}
+
+.mainTitle {
+    font-size:4.5rem;
+}
+
+.mainDescription {
+    padding-top:10vh;
+    font-size:3rem;
+}
+
+.mainButtonWrapper {
+    padding-top:20vh;
 }
