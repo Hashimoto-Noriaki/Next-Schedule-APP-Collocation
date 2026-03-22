@@ -1,5 +1,16 @@
+.wrapper {
+    position:relative;
+}
+
 .header{
     backgrounde-color:#ffffff;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:50px;
+    line-height:50px;
+    z-index:100;
 }
 
 .headerInner{
@@ -14,4 +25,5 @@
     display:flex;
     gap:20px;
     list-style:none;
+    color:#3f6212;
 }
