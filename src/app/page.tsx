@@ -1,6 +1,11 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+import { PrimaryBtn } from './shared/components/atoms/PrimaryBtn'
 import styles from './page.module.css'
 
 export default function Home(){
+  const router = useRouter()
   return (
     <div className={styles.wrapper}>
       <header className={styles.header}>
@@ -19,9 +24,9 @@ export default function Home(){
           <h1 className={`logo ${styles.mainTitle}`}>スケジュール管理APP</h1>
           <p className={styles.mainDescription}>お互いのスケジュールを管理するアプリです</p>
           <div className={styles.mainButtonWrapper}>
-            <button>
+            <PrimaryBtn onClick={()=> router.push("/login")}>
               ログイン
-            </button>
+            </PrimaryBtn>
           </div>
         </div>
       </main>
