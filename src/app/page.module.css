@@ -1,0 +1,17 @@
+.header{
+    backgrounde-color:#ffffff;
+}
+
+.headerInner{
+    display:flex;
+    justify-content:space-between;
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 16px;
+}
+
+.navList{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
