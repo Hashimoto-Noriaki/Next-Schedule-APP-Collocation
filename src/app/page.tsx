@@ -24,7 +24,7 @@ export default function Home(){
           <h1 className={`logo ${styles.mainTitle}`}>スケジュール管理APP</h1>
           <p className={styles.mainDescription}>お互いのスケジュールを管理するアプリです</p>
           <div className={styles.mainButtonWrapper}>
-            <PrimaryBtn onClick={()=> router.push("/login")}>
+            <PrimaryBtn onClick={()=> router.push("/")}>
               ログイン
             </PrimaryBtn>
           </div>
