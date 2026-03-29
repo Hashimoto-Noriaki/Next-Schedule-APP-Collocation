@@ -1,4 +1,4 @@
-#　起動
+# 起動
 
 ```bash
 npm run dev
